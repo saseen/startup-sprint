@@ -58,5 +58,9 @@ class App < Sinatra::Base
   get '/team' do
     erb :team
   end
+
+  get '/youtube' do
+    erb :youtube
+  end
   
 end
